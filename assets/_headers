@@ -1,0 +1,5 @@
+# Headers for the entire site. The /* represents matching all routes, NOT a comment.
+
+/*
+  # Cache everything infinitely. All filenames are hashes of their contents.
+  Cache-Control: max-age=315360000, public, immutable
